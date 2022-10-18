@@ -1,0 +1,13 @@
+* {
+    text-align: center;
+
+}
+
+#quote-box {
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    vertical-align: middle;
+    background-color: aqua;
+    width: 66%;
+}
