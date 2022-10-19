@@ -10,12 +10,19 @@
 div {
   position: relative;
   z-index: 2;
+
+  
 }
 
+i .quote-text  {
+    font-size:1.0em;
+    margin-right:  0.4em}
+    
 body {
-  background-color: #333;
+  background-color: rgb(184, 106, 106);
   color: #333;
-  font-family: 'Raleway', sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+;
   font-weight: 400;
   display: flex;
   justify-content: center;
@@ -51,11 +58,13 @@ body {
   height: auto;
   clear: both;
   font-weight: 500;
-  font-size: 1.75em;
+  font-size: 1.2em;
+  font-style: italic;
 }
 #quote-box .quote-text i {
-  font-size: 1em;
-  margin-right: 0.4em;
+  font-size: 0.95em;
+  margin-right: 1.4em;
+  font-style: italic;
 }
 #quote-box .quote-author {
   width: 450px;
@@ -74,13 +83,12 @@ body {
   height: 38px;
   border: none;
   border-radius: 3px;
-  color: #fff;
-  background-color: #333;
-  outline: none;
+ color: #fff;
+   outline: none;
   font-size: 0.85em;
   padding: 8px 18px 6px 18px;
   margin-top: 30px;
-  opacity: 1;
+  opacity: 90%;
   cursor: pointer;
 }
 #quote-box .buttons .button:hover {
@@ -89,12 +97,12 @@ body {
 #quote-box .buttons .button#tweet-quote,
 #quote-box .buttons .button#tumblr-quote {
   float: left;
-  padding: 0px;
-  padding-top: 8px;
+  padding: 5px;
+  padding-top: x;
   text-align: center;
   font-size: 1.2em;
   margin-right: 5px;
-  height: 30px;
+  height: 40px;
   width: 40px;
 }
 #quote-box .buttons .button#new-quote {
