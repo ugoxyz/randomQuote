@@ -2,7 +2,6 @@
 
         function firstLoad() {
             newQuote();
-            colorizer();
         }
 
         function newQuote() {

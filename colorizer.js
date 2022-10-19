@@ -13,6 +13,10 @@ let colors = [
     '#73A857'
 ];
 
+window.onload = firstLoad;
+function firstLoad() {
+    colorizer();
+}
 
 function changeMe() {
     let oneColor = colors.length;
